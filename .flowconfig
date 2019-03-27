@@ -1,0 +1,16 @@
+[ignore]
+.*/flow-typed/.*
+.*/node_modules/.*
+
+[include]
+
+[libs]
+./tools/flow/global.js
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=./src
+module.system.node.resolve_dirname=.
+
+[lints]
+deprecated-call-syntax=off
